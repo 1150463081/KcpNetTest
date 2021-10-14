@@ -1,0 +1,6 @@
+D:\MyProject\KCPNet\KCPNet\KCPNet\bin\Debug\netstandard2.0\KCPNet.deps.json
+D:\MyProject\KCPNet\KCPNet\KCPNet\bin\Debug\netstandard2.0\KCPNet.dll
+D:\MyProject\KCPNet\KCPNet\KCPNet\obj\Debug\netstandard2.0\KCPNet.csprojAssemblyReference.cache
+D:\MyProject\KCPNet\KCPNet\KCPNet\obj\Debug\netstandard2.0\KCPNet.csproj.CoreCompileInputs.cache
+D:\MyProject\KCPNet\KCPNet\KCPNet\obj\Debug\netstandard2.0\KCPNet.AssemblyInfoInputs.cache
+D:\MyProject\KCPNet\KCPNet\KCPNet\obj\Debug\netstandard2.0\KCPNet.AssemblyInfo.cs

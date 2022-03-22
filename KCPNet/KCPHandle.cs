@@ -17,11 +17,5 @@ namespace KCPNet
             using (buffer)
                 Out(buffer.Memory.Slice(0, avalidLength));
         }
-
-        public Action<byte[]> Recv;
-        public void Recive(byte[] buffer)
-        {
-            Recv(buffer);
-        }
     }
 }

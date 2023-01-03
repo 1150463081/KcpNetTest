@@ -365,26 +365,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jieyu20200415\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MyProject\\KCPNet\\KCPNet\\KCPNet\\KCPNet.csproj",
+      "projectUniqueName": "E:\\GitHubProject\\KcpNetTest\\KCPNet\\KCPNet.csproj",
       "projectName": "KCPNet",
-      "projectPath": "D:\\MyProject\\KCPNet\\KCPNet\\KCPNet\\KCPNet.csproj",
-      "packagesPath": "C:\\Users\\jieyu20200415\\.nuget\\packages\\",
-      "outputPath": "D:\\MyProject\\KCPNet\\KCPNet\\KCPNet\\obj\\",
+      "projectPath": "E:\\GitHubProject\\KcpNetTest\\KCPNet\\KCPNet.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "E:\\GitHubProject\\KcpNetTest\\KCPNet\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\jieyu20200415\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -396,7 +393,6 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
           "projectReferences": {}
         }
       },
@@ -408,7 +404,6 @@
     },
     "frameworks": {
       "netstandard2.0": {
-        "targetAlias": "netstandard2.0",
         "dependencies": {
           "Kcp": {
             "target": "Package",
@@ -422,16 +417,10 @@
           }
         },
         "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48"
+          "net461"
         ],
         "assetTargetFallback": true,
-        "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "warn": true
       }
     }
   }

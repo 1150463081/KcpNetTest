@@ -15,10 +15,11 @@ namespace KCPNet
 
     public abstract class KCPSession
     {
-        protected uint m_sid;
-        Action<byte[], IPEndPoint> m_udpSender;
-        protected SessionState m_sessionState = SessionState.None;
         private IPEndPoint m_remotePoint;
+        private Action<byte[], IPEndPoint> m_udpSender;
+
+        protected uint m_sid;
+        protected SessionState m_sessionState = SessionState.None;
 
         public KCPHandle m_handle;
         public Kcp kcp;
@@ -46,10 +47,11 @@ namespace KCPNet
                   byte[] bytes = buffer.ToArray();
                   udpSender(bytes, m_remotePoint);
               };
-           
-
-
         }
 
+        public bool IsConnected()
+        {
+            return m_sessionState == SessionState.Connetced;
+        }
     }
 }
